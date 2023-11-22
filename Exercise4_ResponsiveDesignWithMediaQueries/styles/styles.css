@@ -1,0 +1,25 @@
+body {
+    background-color: #FDB827;
+}
+#header {
+    background-color: #542583;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    display: flex;
+}
+
+.header-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+section {
+  display: block;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 10%;
+  border: #FDB827;
+}
