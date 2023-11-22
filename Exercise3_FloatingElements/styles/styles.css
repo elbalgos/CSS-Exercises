@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .box {
+    float: left;
+    width: 33.3%;
+    padding: 200px;
+  }

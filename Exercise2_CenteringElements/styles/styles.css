@@ -1,6 +1,23 @@
-#container {
-margin: auto;
-width: 60%;
-border: 3px solid #73AD21;
-padding: 300px;
+body {
+    margin-top: 0%;
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #DFEBEB;
 }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.container { 
+    height: 150px;
+    position: relative;
+    border: 2px solid #1A0014; 
+    padding: 55px;
+  }
